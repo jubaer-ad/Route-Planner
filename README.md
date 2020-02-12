@@ -27,7 +27,8 @@ A graph has some vertices and edges. Vertices as place in Dhaka city and edges a
 For this, we take some edges as class Edge containing from place, to place and distance between them.
 Our program converted them into graph.
 
-
+![](images/Picture1.png)
+![](images/Picture2.png)
  
                                   Code of Graph
 These codes make an ArrayList of Edge type into a graph.
@@ -43,6 +44,8 @@ This algorithm is the main part of our application. This algorithm takes one sta
 
 Minimum Spanning Tree
 This algorithm gives us the minimum cost of travelling all places. Means if one wish to travel all places, then this algorithm gives him/her the routes by he/she can travel at minimum cost. For our graph…
+
+![](images/Picture3.png)
  
 Bellman Ford
 This algorithm is for bad connection in one rout. If there is negative cost of one edge then Dijkstra can not handle it. Then we need the Bellman Ford Algorithm.
@@ -50,14 +53,20 @@ This algorithm is for bad connection in one rout. If there is negative cost of o
 
 
 In our project
+![](images/Picture4.png)
  
 Places as index and options to choose.
 For Dijkstra:
+ ![](images/Picture5.png)
  
 These is the output. Shortest distance from source to destination.
 For MST:
+
+![](images/Picture6.png)
  
 The given edges are used in MST.
 For Bellman Ford:
+
+![](images/Picture7.png)
  
 This part is giving distance from source to destination using Bellman Ford Algorithm.
